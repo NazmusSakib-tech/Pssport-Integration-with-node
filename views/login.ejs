@@ -1,6 +1,6 @@
 <h1>Login page</h1>
-<% if (error.message) { %>
-<p class="error"><%= error.message %></p>
+<% if (messages.error) { %>
+<p class="error"><%= messages.error %></p>
 <% } %>
 <form method="post" action="/login">
   <div>
